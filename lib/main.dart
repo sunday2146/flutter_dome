@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import './BottomNavigationWidget.dart';
+// import './BottomNavigationWidget.dart';
+import './BottomNav32.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,8 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'bottom navigation bar',
+      home: BottomAppBarDemo(),
       theme: ThemeData.light(),
-      home: BottomNavigationWidget(),
     );
   }
 }

@@ -56,5 +56,4 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
        )
      );
   }
-
 }
