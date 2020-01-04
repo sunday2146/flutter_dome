@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-
-class name extends StatelessWidget {
+class EmailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(title: Text('Email'),),
+      body: Center(child: Text('Email'),),
     );
   }
 }

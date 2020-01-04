@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import './custome_router.dart';
 
 class FirstPage extends StatelessWidget {
   @override
@@ -19,10 +19,7 @@ class FirstPage extends StatelessWidget {
           ),
           onPressed: (){
               Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder:(BuildContext context){
-                     return SecondPage();
-                  }));
+                CustomRoute(SecondPage()));
           },
         ),
       )
