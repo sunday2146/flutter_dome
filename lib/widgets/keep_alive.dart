@@ -36,7 +36,7 @@ class _TabPageState extends State<TabPage> with AutomaticKeepAliveClientMixin {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: '加1',
+        tooltip: '加+1',
         child: Icon(Icons.add),
       ),
     );
