@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'wigdgets2/keep_alive_test.dart';
 
 class DemoTest extends StatelessWidget {
   @override
@@ -52,9 +53,9 @@ class _KeepAliveDemeState extends State<KeepAliveDeme> with SingleTickerProvider
       body: TabBarView(
         controller: _controller,
         children: <Widget>[
-          Text('11111'),
-          Text('2222'),
-          Text('333331'),
+          TabPage(),
+          TabPage(),
+          TabPage(),
         ],
       ),
     );
