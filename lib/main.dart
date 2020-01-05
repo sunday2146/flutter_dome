@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './home.dart';
+import './demo_test.dart';
 import './demo1.dart';
 import './demo2.dart';
 import './demo3.dart';
@@ -19,6 +20,7 @@ import './demo13.dart';
 void main() => runApp(MaterialApp(
       home: MyAppHome(), // becomes the route named '/'
       routes: <String, WidgetBuilder>{
+        '/demo_test': (BuildContext context) => DemoTest(),
         '/demo1': (BuildContext context) => Demo1(),
         '/demo2': (BuildContext context) => Demo2(),
         '/demo3': (BuildContext context) => Demo3(),

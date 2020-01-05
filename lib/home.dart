@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class MyAppHome extends StatelessWidget {
   @override
   final List<String> items = [
+    'demo_test',
     'demo1',
     'demo2',
     'demo3',
