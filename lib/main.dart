@@ -14,7 +14,7 @@ import './demo10.dart';
 import './demo11.dart';
 import './demo12.dart';
 import './demo13.dart';
-// import './demo14.dart';
+import './demo14.dart';
 // import './demo15.dart';
 
 void main() => runApp(MaterialApp(
@@ -34,7 +34,7 @@ void main() => runApp(MaterialApp(
         '/demo11': (BuildContext context) => Demo11(),
         '/demo12': (BuildContext context) => Demo12(),
         '/demo13': (BuildContext context) => Demo13(),
-        // '/demo14': (BuildContext context) => Demo14(),
+        '/demo14': (BuildContext context) => Demo14(),
         // '/demo15': (BuildContext context) => Demo15(),
       },
       debugShowCheckedModeBanner: false, // 这一行去掉右上角debug图标
